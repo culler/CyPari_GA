@@ -4,7 +4,7 @@ on: [push, pull_request]
 
 jobs:
   build_wheels:
-    name: Build wheels for 32 bit Windows
+    name: Build wheels for 32 bit Windows with clang32
     runs-on: windows-latest
     defaults:
       run:
