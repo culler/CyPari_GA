@@ -30,7 +30,7 @@ jobs:
             make
             patch
             sed
-            binutils-mingw-w64-i686
+            mingw-w64-cross-binutils
           pacboy: clang:p gcc-compat:p
           path-type: inherit
           
