@@ -30,7 +30,7 @@ jobs:
             make
             patch
             sed
-          pacboy: clang:p gcc-compat:p
+          pacboy: clang:p gcc-compat:p cross-binutils:p
           path-type: inherit
           
       - name: Expand the path for Visual Studio 2019
